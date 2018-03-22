@@ -49,12 +49,17 @@ table {
 
 /* end css reset */
 
+body {
+	background-color: black;
+}
+/* begin horizontal nav styling*/
 
 #navbar {
   position:fixed;
   z-index:10000;
   padding:0;
   border:0;
+	border-color:rgb(0, 134, 179);
   margin:0;
   top:-5px;
   left:-5px;
@@ -63,20 +68,29 @@ table {
   background-color: rgb(0, 19, 26);
 }
 
-#logo {
-  position:absolute;
-  left:40px;
-  top:13px;
-  z-index:100001;
+#line {
+	position:relative;
+	width:100%;
+	height:2px;
+	background-color: rgb(0, 134, 179);
+	top:98px;
 }
 
 #nav {
   position:absolute;
-  left: 30%;
+  left: 5%;
   top:12px;
-  width:700px;
+  width:100%;
   height:50px;
   z-index: 100002;
+}
+
+#nav li {
+	float:left;
+}
+
+#logo {
+	padding-right: 50px;
 }
 
 #nav > li a:link {
@@ -100,4 +114,34 @@ table {
 
 #nav > li a:visited {
   color:white;
+}
+
+/*end horizontal nav styling*/
+/*begin banner styling*/
+
+#title {
+	color:white;
+	font-family: 'Mina', sans-serif;
+	font-size:5em;
+	position:relative;
+	z-index:10000;
+	left:30px;
+	top:400px;
+
+}
+
+/* end banner styling*/
+/* begin index content styling */
+
+#intro-text {
+	position:absolute;
+	top:550px;
+	left:auto;
+	width:80%;
+	height:auto;
+	padding:5px;
+	color:white;
+	font-family: 'Exo 2', sans-serif;
+
+
 }
