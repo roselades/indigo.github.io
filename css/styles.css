@@ -50,7 +50,7 @@ table {
 /* end css reset */
 
 body {
-	background-color: black;
+	background-color: rgb(0, 19, 26);
 }
 /* begin horizontal nav styling*/
 
@@ -165,4 +165,108 @@ body {
 }
 #para2 > ol {
 	list-style-type: decimal;
+}
+
+#news {
+	position:relative;
+	top:100px;
+	margin-left: auto;
+	margin-right:auto;
+	width:80%;
+	height:auto;
+	padding:5px;
+	color:white;
+	font-family: 'Exo 2', sans-serif;
+	text-align:left;
+	line-height:50px;
+}
+
+#news-item {
+	position:relative;
+	width:80%;
+	height:auto;
+	background-color: rgb(3, 34, 45);
+	margin-left:auto;
+	margin-right:auto;
+	padding: 20px;
+	top:70px;
+	color: rgb(210, 210, 210);
+	font-family: 'Exo 2', sans-serif;
+	text-align:left;
+	line-height:25px;
+}
+
+
+#footer {
+	position:relative;
+	bottom: 0;
+	margin-top: 200px;
+	width: 100%;
+	height:175px;
+	text-align:center;
+	background-color: rgb(3, 34, 45);
+	border-top: 1px solid rgb(0, 134, 179);
+}
+
+#navf > li a:link {
+  font-family: 'Exo 2', sans-serif;
+  color: rgb(0, 134, 179);
+  text-decoration:none;
+  font-size: 1em;
+  padding:30px;
+  float:left;
+}
+
+#navf > li a:active {
+  color:purple;
+  text-decoration:underline;
+}
+
+#navf >li a:hover {
+  color:rgb(0, 168, 230);
+
+}
+
+#navf > li a:visited {
+  color:white;
+}
+
+#navf {
+	width: 701px;
+	height: 70px;
+	margin-left: auto;
+	margin-right:auto;
+
+}
+
+#navf2 {
+	width: 444px;
+	height: 60px;
+	margin-left: auto;
+	margin-right:auto;
+	text-align:center;
+
+}
+
+#navf2 > li a:link {
+  font-family: 'Exo 2', sans-serif;
+  color: rgb(0, 134, 179);
+  text-decoration:none;
+  font-size: 1em;
+  padding:30px;
+  float:left;
+}
+
+#navf2 > li a:active {
+  color:purple;
+  text-decoration:underline;
+}
+
+#navf2 >li a:hover {
+  color:rgb(0, 168, 230);
+
+}
+
+#navf2 > li a:visited {
+  color:white;
 }
