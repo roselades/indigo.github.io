@@ -48,7 +48,7 @@ table {
 }
 
 /* end css reset */
-
+/*begin site styling*/
 body {
 	background-color: rgb(0, 19, 26);
 }
@@ -105,22 +105,11 @@ body {
 }
 
 /*end horizontal nav styling*/
-/*begin banner styling*/
-
-#frongimg {
-	position:relative;
-	height:400px;
-	top:70px;
-}
-
-/* end banner styling*/
-/* begin index content styling */
-
-
+/* begin basic content styling */
 
 #intro-text {
 	position:relative;
-	top:30px;
+	top:50px;
 	margin-left: auto;
 	margin-right:auto;
 	border-bottom:1px solid rgb(0, 134, 179);
@@ -167,6 +156,24 @@ body {
 	list-style-type: decimal;
 }
 
+#para3 {
+	position:relative;
+	width:80%;
+	height:auto;
+	border-bottom: 1px solid rgb(0, 134, 179);
+	margin-left:auto;
+	margin-right:auto;
+	top:75px;
+	color: rgb(210, 210, 210);
+	font-family: 'Exo 2', sans-serif;
+	font-size:1.25em;
+	text-align:left;
+	line-height:25px;
+
+}
+/*end basic content styling*/
+/*begin news styling*/
+
 #news {
 	position:relative;
 	top:100px;
@@ -196,6 +203,52 @@ body {
 	line-height:25px;
 }
 
+/*end news styling*/
+/*begin guide styling*/
+
+#spawnquiz {
+	float:right;
+	margin: 10px;
+}
+
+#spawnimg {
+	float:left;
+	margin:10px;
+}
+
+#starter {
+	float:left;
+	margin:10px;
+}
+
+#claim1 {
+	margin:10px;
+	float:left;
+}
+
+#claim2 {
+	float:right;
+	margin:10px;
+}
+
+#claim3 {
+	float:left;
+	margin:10px;
+}
+
+#table1 > table, th, td {
+   border: 1px solid white;
+	 width:20%;
+}
+
+#table2 > table, th, td {
+	border: 1px solid white;
+	width:50%;
+}
+
+
+
+/*begin footer styling*/
 
 #footer {
 	position:relative;
@@ -232,7 +285,7 @@ body {
 }
 
 #navf {
-	width: 701px;
+	width: 575px;
 	height: 70px;
 	margin-left: auto;
 	margin-right:auto;
